@@ -35,9 +35,7 @@
           <strong class="text-sm">Meu Carrinho</strong>
           <span class="text-xs fw-light">0 itens</span>
         </div>
-        <div>
-          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" style="fill: currentColor;transform: ;msFilter:;"><path d="M21 4H2v2h2.3l3.521 9.683A2.004 2.004 0 0 0 9.7 17H18v-2H9.7l-.728-2H18c.4 0 .762-.238.919-.606l3-7A.998.998 0 0 0 21 4z"></path><circle cx="10.5" cy="19.5" r="1.5"></circle><circle cx="16.5" cy="19.5" r="1.5"></circle></svg>
-        </div>
+        <div><?php include 'src/components/icons/cart.php'; ?></div>
       </div>
     </nav>
 
@@ -58,7 +56,7 @@
                 class="d-flex align-items-center"
                 style="gap: .3rem; background: var(--bs-btn-active-bg); padding: .375rem .5rem;"
               >
-                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" style="fill: white;transform: ; msFilter:;"><circle cx="10.5" cy="19.5" r="1.5"></circle><circle cx="17.5" cy="19.5" r="1.5"></circle><path d="M13 13h2v-2.99h2.99v-2H15V5.03h-2v2.98h-2.99v2H13V13z"></path><path d="M10 17h8a1 1 0 0 0 .93-.64L21.76 9h-2.14l-2.31 6h-6.64L6.18 4.23A2 2 0 0 0 4.33 3H2v2h2.33l4.75 11.38A1 1 0 0 0 10 17z"></path></svg>
+                <?php include 'src/components/icons/add-card.php'; ?>
                 0
               </div>
               <span class="text-uppercase text-center px-2 text-xs fw-semibold" style="flex: 1;">Adicionar ao carrinho</span>
@@ -66,7 +64,6 @@
           </div>
         </div>
       </div>
-
     </section>
   </main>
   <script
