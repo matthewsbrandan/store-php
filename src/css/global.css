@@ -1,0 +1,8 @@
+body{
+  margin: 0;
+  background: black;
+  color: #ddd;
+}
+h1, strong, svg{ color: white; }
+.text-sm{ font-size: 0.875rem; }
+.text-xs{ font-size: 0.7rem;   }
