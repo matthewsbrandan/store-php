@@ -18,7 +18,7 @@
           class="d-flex align-items-center"
           style="gap: .3rem; background: var(--bs-btn-active-bg); padding: .375rem .5rem;"
         >
-          <?php include 'src/components/icons/add-card.php'; ?>
+          <?php include 'resources/components/icons/add-card.php'; ?>
           0
         </div>
         <span class="text-uppercase text-center px-2 text-xs fw-semibold" style="flex: 1;">Adicionar ao carrinho</span>
